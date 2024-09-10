@@ -42,4 +42,6 @@ print(mylist)
 "copy of list using list"
 mylist = list(fruits)
 print(mylist)
+mylist = ["apple", "banana", "cherry"]
+print(type(mylist))
 
