@@ -19,3 +19,27 @@ print(len(fruits))
 "Add items"
 fruits.append("orange")
 print(fruits)
+"remove items"
+fruits.remove("apple")
+print(fruits)
+"pop"
+fruits.pop()
+print(fruits)
+"deleting"
+del fruits[0]
+print(fruits)
+fruits.append("Apple, banana,cherry")
+print(fruits)
+"del will clear the entir list"
+"clear method"
+fruits.clear()
+print(fruits)
+fruits.append("Apple,banana,Cherry,Orange,Blackcurrant")
+print(fruits)
+"copying of list"
+mylist = fruits.copy()
+print(mylist)
+"copy of list using list"
+mylist = list(fruits)
+print(mylist)
+
