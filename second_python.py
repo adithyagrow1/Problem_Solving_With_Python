@@ -6,3 +6,8 @@ c="Shreyank"
 print(c[:])
 d="Kiran"
 print(d.len())
+age = 25
+if (age<=25):
+    print("eligible")
+    else
+    print("not eligible")
