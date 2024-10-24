@@ -43,3 +43,15 @@ print(merged_dict)
 numbers = [1, 2, 3, 4, 5]
 reversed_list = numbers[::-1]
 print(reversed_list)
+print("Absolute Path:", absolute_path)
+
+# appending content to file
+try:
+    with open(absolute_path,'a') as file:
+        file.write("welcome to python scriptng \n")
+
+        with open(absolute_path,'r') as file:
+            content = file.read()
+            print(content)
+except Exception as e:
+    print("Error:")

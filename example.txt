@@ -1,0 +1,29 @@
+CR7 is the greatest football player ever.
+import os
+# Define relative path
+relative_path = "sample.tx"
+
+# Get the current working directory
+current_directory = os.getcwd()
+print("Current Directory:",current_directory)
+
+#Create the absolute path
+absolute_path = os.path.join(current_directory,relative_path)
+print("Absolute Path:", absolute_path)
+
+with open(absolute_path,'r') as file:
+content = file.read()
+print(content)
+
+try
+with open(absolute_path,'r') as file:
+content = file.read()
+print(content)
+except Execption as e:
+print("Error: Th")
+
+
+print("Absolute Path:",absolute_path)
+
+#appending content to file
+try:
